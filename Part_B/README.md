@@ -37,7 +37,7 @@ Part_B folder contains 3 files They are Best_model_partB.ipynb, PartB.ipynb and 
 
 **File name :** **Best_model_partB.ipynb**  
 **File Description :** This program builds/trains the model with best configurations and test the model on test set and logs the accuracy in wandb
-**Instructions to run the file:** Open the file in google colab. Replace the Wandb credentials. This file save the CNN model with name "my_best_model.h5". We have uploaded "my_best_model.h5" in github. You can evaluate the your/this model with test set by uploading the model in colab and changing the path in load_model() function. (please refer the last cell of this program comments for more information).
+**Instructions to run the file:** Open the file in google colab. Replace the Wandb credentials. This file save the CNN model with name "my_best_model.h5".You can evaluate the your/this model with test set by uploading the model in colab and changing the path in load_model() function. (please refer the last cell of this program comments for more information).
 
 **Important Functions in the file**:  
 
