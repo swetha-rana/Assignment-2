@@ -53,7 +53,7 @@ File Description: This file contains the code for applying guided back propagati
 **Returns      :** selected image  
 
 **Function name:** **guided_back_propagation**  
-**Description :**performs guided back propagation and plots the images that excite the neuron  
+**Description :** performs guided back propagation and plots the images that excite the neuron  
 **Arguments   :** number_of_neurons,model,image  
 **Returns     :** Zero  
 
