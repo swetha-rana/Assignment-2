@@ -1,6 +1,6 @@
 # Assignment-2
 Part A contains the Part A of Assignment.  
-Part B contains the part B of Assignmnet.  
+Part B contains the part B of Assignment.  
 
 **PART A**:
           Part A contains Three Files they are **Best_model_CNN.ipynb**, **CNN_model.ipynb**, **Guided_backpropagation.ipynb**.
@@ -45,3 +45,20 @@ File Description: This file contains the code for applying guided back propagati
 |epochs | Number of Epoches (eg:5,10)|
 |dense_size | output Size of the dense layer|
 |lr | learning rate (eg: 0.001,0.0001)|
+
+
+**Function name:** select_random_image  
+**Description  :** selects the random image from the path provided from random class.  
+**Arguments    :** path (path of the data set where you want to select the image randomly. This path should contain the classes as folders. By default nature12k data set has this structure)  
+**Returns      :** selected image  
+
+**Function name:** **guided_back_propagation**  
+**Description :**performs guided back propagation and plots the images that excite the neuron  
+**Arguments   :** number_of_neurons,model,image  
+**Returns     :** Zero  
+
+| **Variable name** |  **Description**   |
+| :------------ | :-----|
+| image    | image to perform back propagation            |
+| model | cnn model instance |
+|number_of_neurons | Number of neurons to see what excite those neurons|
