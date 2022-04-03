@@ -2,19 +2,19 @@
 Part A contains the Part A of Assignment.  
 Part B contains the part B of Assignment.  
 
-**PART A**:
+**PART A**:  
           Part A contains Three Files they are **Best_model_CNN.ipynb**, **CNN_model.ipynb**, **Guided_backpropagation.ipynb**.
 
-**CNN_model.ipynb**
+**CNN_model.ipynb**  
 File Description: This file contains Preprocessing of the nature12k dataset and Convolutional neural network model along with the wandb sweep configuaration to find the best model.  
 
 ****Best_model_CNN.ipynb****:          
 File Description: This file contains best configuration of our CNN model, generation of Prediction & original image (10 X 3) grid code along with visualisation code for filters and feature maps.  
                
-**Guided_backpropagation.ipynb**
+**Guided_backpropagation.ipynb**  
 File Description: This file contains the code for applying guided back propagation on 10 neurons in the CONV5 layer and plot the images which excite this neuron.
 
-**Important Functions**:
+**Important Functions**:  
 
 **Function Name:** **data**  
 **Description :** This function responsible for data preprocessing, augmentation.  
@@ -29,7 +29,7 @@ File Description: This file contains the code for applying guided back propagati
 |batch_size | batch size for training (eg: 32,100)|
 
 
-**Function Name:** **CNN_model**
+**Function Name:** **CNN_model**  
 **Description :** This function contains the CNN model and this function responsible creates the required convolutional neural network.  
 **Arguments :** image_size,kernel_size,num_filters,filter_org,dropout,batch_norm,epochs,dense_size,lr.  
 **Returns :** train_generator, val_generator, test_generator.  
@@ -47,7 +47,7 @@ File Description: This file contains the code for applying guided back propagati
 |lr | learning rate (eg: 0.001,0.0001)|
 
 
-**Function name:** select_random_image  
+**Function name:** **select_random_image**  
 **Description  :** selects the random image from the path provided from random class.  
 **Arguments    :** path (path of the data set where you want to select the image randomly. This path should contain the classes as folders. By default nature12k data set has this structure)  
 **Returns      :** selected image  
