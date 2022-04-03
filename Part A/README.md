@@ -79,7 +79,7 @@ and visualise all the filters in the first layer of your best model for a random
 
 
 **File Name :** **Guided_backpropagation.ipynb**  
-**File Description:** This file contains the code for applying guided back propagation on 10 neurons in the CONV5 layer and plot the images which excite this neuron.
+File Description: This file contains the code for applying guided back propagation on 10 neurons in the CONV5 layer and plot the images which excite this neuron.
 **Instructions to run the file:** Open the file in google colab. upload the cnn model you want to perform guided backpropagation or upload the "my_best_model_A.h5" which was generated while running the Best_model_CNN.ipynb file. And run the file to apply guided back propagation on any 10 neurons in the CONV5 layer and plot the images which excite this neuron.  
 
 **Important Functions in the file**:  
@@ -100,4 +100,5 @@ and visualise all the filters in the first layer of your best model for a random
 | model | cnn model instance |
 |number_of_neurons | Number of neurons to see what excite those neurons|
 
-**File Name :** **my_best_model_A.h5**
+**File Name :** **my_best_model_A.h5**  
+**File Description :** best model of part A. Obtained from running Best_model_CNN.ipynb 
