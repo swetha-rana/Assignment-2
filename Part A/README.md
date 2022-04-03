@@ -1,5 +1,5 @@
 **PART A**:  
-          Part A contains Three Files they are **Best_model_CNN.ipynb**, **CNN_model.ipynb**, **Guided_backpropagation.ipynb**, **my_best_model_A.h5**.
+          Part A contains five Files they are **Best_model_CNN.ipynb**, **CNN_model.ipynb**, **Guided_backpropagation.ipynb**, **my_best_model_A.h5** and **README.md**.
 
 **File Name :** **CNN_model.ipynb**  
 File Description: This file contains Preprocessing of the nature12k dataset and Convolutional neural network model along with the wandb sweep configuaration to find the best model.  
@@ -102,3 +102,6 @@ File Description: This file contains the code for applying guided back propagati
 
 **File Name :** **my_best_model_A.h5**  
 **File Description :** best model of part A. Obtained from running Best_model_CNN.ipynb 
+  
+**File Name** : **README.md**  
+**Description :** Contains the information about the files of Part_B  
