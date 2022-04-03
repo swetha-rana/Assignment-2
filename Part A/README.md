@@ -1,7 +1,7 @@
 **PART A**:  
-          Part A contains Three Files they are **Best_model_CNN.ipynb**, **CNN_model.ipynb**, **Guided_backpropagation.ipynb**.
+          Part A contains Three Files they are **Best_model_CNN.ipynb**, **CNN_model.ipynb**, **Guided_backpropagation.ipynb**, **my_best_model_A.h5**.
 
-**CNN_model.ipynb**  
+**File Name :** **CNN_model.ipynb**  
 File Description: This file contains Preprocessing of the nature12k dataset and Convolutional neural network model along with the wandb sweep configuaration to find the best model.  
 **Instructions to run the file:** Open the file in google colab. Change the Wandb project name and entity in wandb.init() function call. And run the file. By changing the sweep config variable parameters we can build the model for different configurations.  
   
@@ -38,7 +38,7 @@ File Description: This file contains Preprocessing of the nature12k dataset and 
 |lr | learning rate (eg: 0.001,0.0001)|
 
 
-****Best_model_CNN.ipynb****:          
+**File Name :** ****Best_model_CNN.ipynb****:          
 File Description: This file contains best configuration of our CNN model, generation of Prediction & original image (10 X 3) grid code along with visualisation code for filters and feature maps.  
 **Instructions to run the file:**  Open the file in google colab. Change the Wandb project name and entity in wandb.init() function call. And run the file to get best model accuracy on the test data and 
 plot the 10 x 3 grid containing sample images from the test data and predictions made by model 
@@ -78,8 +78,8 @@ and visualise all the filters in the first layer of your best model for a random
 
 
 
-**Guided_backpropagation.ipynb**  
-File Description: This file contains the code for applying guided back propagation on 10 neurons in the CONV5 layer and plot the images which excite this neuron.
+**File Name :** **Guided_backpropagation.ipynb**  
+**File Description:** This file contains the code for applying guided back propagation on 10 neurons in the CONV5 layer and plot the images which excite this neuron.
 **Instructions to run the file:** Open the file in google colab. upload the cnn model you want to perform guided backpropagation or upload the "my_best_model_A.h5" which was generated while running the Best_model_CNN.ipynb file. And run the file to apply guided back propagation on any 10 neurons in the CONV5 layer and plot the images which excite this neuron.  
 
 **Important Functions in the file**:  
@@ -99,3 +99,5 @@ File Description: This file contains the code for applying guided back propagati
 | image    | image to perform back propagation            |
 | model | cnn model instance |
 |number_of_neurons | Number of neurons to see what excite those neurons|
+
+**File Name :** **my_best_model_A.h5**
