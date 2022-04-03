@@ -7,5 +7,5 @@ As hand gestures are one of the methods used in sign language for non-verbal com
 With this kind of application, Normal people don’t need to know sign language to understand our differently-abled friends who can't use the normal way of communication and deaf & dumb people can communicate their feelings with normal people. With this kind of applications, the differences between normal and differently-abled people will be reduced by a huge margin. 
 
 
-The link for video is below:
-[https://youtu.be/mLusbBXXgTY](url)
+The link for video is below: 
+https://www.youtube.com/watch?v=mLusbBXXgTY
